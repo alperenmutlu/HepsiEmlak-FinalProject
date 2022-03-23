@@ -23,7 +23,6 @@ This project is for who is looking for real estates and who is looking for to se
 
 ### Get User By ID
 ### end point : http://localhost:8080/users/{id}
-#### normally only authorized users can perform it.
 
 ![](EmlakBurada-Images/users/get-user-by-id.png)
 
