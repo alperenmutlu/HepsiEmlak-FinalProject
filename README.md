@@ -51,13 +51,11 @@ This project is for who is looking for real estates and who is looking for to se
 
 ### Get All Products
 ### end point : http://localhost:8080/products
-#### normally only authorized users can perform it.
 
 ![](EmlakBurada-Images/products/get-all-products.png)
 
 ### Get Product By Name
 ### end point : http://localhost:8080/products/{productName}
-#### normally only authorized users can perform it.
 
 ![](EmlakBurada-Images/products/get-product-by-name.png)
 
