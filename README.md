@@ -73,6 +73,12 @@ This project is for who is looking for real estates and who is looking for to se
 
 ![](EmlakBurada-Images/user-product-detail/after-product-added-to-user.png)
 
+## User's Product Detail
+### User bought the product once. If user buy the product again, "end date" will be upadated remain time plus 30 days. Purchase date will be updated also.
+### And User's advert rights will be updated remain rights plus 10 rights.
+
+![](EmlakBurada-Images/user-product-detail/user-product-detail.png)
+
 ## Payment
 ### Also payment done at the same time when product added to user.
 
