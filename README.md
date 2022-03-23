@@ -142,9 +142,10 @@ Start the app
   mvn spring-boot:run
 ```
 
+#
 
-
-
+# Diagram
+![](EmlakBurada-Images/diagram/diagram.png)
 
 
 
