@@ -165,4 +165,4 @@ Start the app
 
 # EmlakBurada-payment Database Diagram
 
-![]()
+![](EmlakBurada-Images/diagram/payment-db-diagram.png)
