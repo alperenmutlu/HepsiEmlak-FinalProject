@@ -4,7 +4,7 @@ This project is for who is looking for real estates and who is looking for to se
 
 ## Used Technologies
 
-**Backend:** Java 11, Spring Boot, Maven
+**Backend:** Java 11, Spring Boot, Maven, Hibernate, JUnit5
 
 **Database:** MySQL
 
@@ -118,6 +118,28 @@ This project is for who is looking for real estates and who is looking for to se
 
 ![](EmlakBurada-Images/adverts/if-user-advert-rights-over.png)
 
+
+#
+
+## Installing & Running
+
+Clone this repo into your local:
+
+```bash
+  git clone https://github.com/alperenmutlu/HepsiEmlak-FinalProject.git
+```
+
+Build using maven
+
+```bash
+  mvn clean install
+```
+
+Start the app
+
+```bash
+  mvn spring-boot:run
+```
 
 
 
