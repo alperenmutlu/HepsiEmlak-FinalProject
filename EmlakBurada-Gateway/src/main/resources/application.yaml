@@ -1,0 +1,32 @@
+server:
+  port: 9090
+
+spring:
+  application:
+    name: emlakburada-gateway
+  security:
+    oauth2:
+      resourceserver:
+        jwt:
+          jwk-set-uri: http://localhost:8082/auth
+  cloud:
+    gateway:
+      routes:
+        - id: emlakburada
+          uri: http://localhost:8080
+          predicates:
+            - Path=/adverts/**, /users/**
+            - Method=POST
+        - id: emlakburada-auth
+          uri: http://localhost:8082
+          predicates:
+            - Path=/auth/**
+            - Method=POST
+
+  main:
+    allow-bean-definition-overriding: true
+    web-application-type: reactive
+
+logging:
+  level:
+    '[org.springframework.security]': TRACE
