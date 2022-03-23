@@ -29,7 +29,8 @@ This project is for who is looking for real estates and who is looking for to se
 
 ### Get User's Product by User Id
 ### end point : http://localhost:8080/users/products/{userId}
---update ımage here
+
+![](EmlakBurada-Images/users/get-user-products-by-user-id.png)
 
 ### Get All Users
 ### end point : http://localhost:8080/users
