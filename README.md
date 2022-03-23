@@ -155,5 +155,9 @@ Start the app
 
 
 
+#
 
+# Database Diagram
+
+![](EmlakBurada-Images/diagram/db-diagram.png)
 
